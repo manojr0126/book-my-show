@@ -1,0 +1,32 @@
+.seat {
+  border: solid red 1px;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 5px;
+  color: red;
+}
+
+.seat:hover {
+  background-color: green;
+}
+
+.disabled {
+  color: gray;
+  border: solid grey 1px;
+  background-color: lightgrey;
+}
+
+.disabled:hover {
+  background-color: lightgrey;
+  cursor: not-allowed;
+}
+
+.selected {
+  background-color: green;
+  color: white;
+}
+
+.selected:hover {
+  background-color: lightgreen;
+  color: red;
+}
